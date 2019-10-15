@@ -13,7 +13,7 @@ import PackageDescription
 import PackageDescription
 
 let package = Package(
-    name: "WSTagsField",
+    name: "SwiftyChrono",
     platforms: [
         .iOS(.v13)
     ],
@@ -21,7 +21,7 @@ let package = Package(
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
             name: "SwiftyChrono",
-            targets: ["SwiftChrono-iOS"])
+            targets: ["SwiftyChrono-iOS"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
