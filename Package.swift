@@ -9,6 +9,5 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftyChrono",
-    dependencies: []
+    name: "SwiftyChrono"
 )
